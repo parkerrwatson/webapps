@@ -1,0 +1,21 @@
+/* Colors as Hex Codes */
+
+/* Main Primary */
+.color-primary-0 { color: #42527C }
+
+/*Main Secondary */
+.color-secondary-1-0 { color: #B9AF58 }
+
+/*//////////////////////*/
+
+/* Colors as RGBa Codes */
+
+/* Main Primary */
+.rgba-primary-0 { color: rgba(66,82,124,1) }
+
+/* Main Secondary */
+.rgba-secondary-1-0 { color: rgba(185,175,88,1) }
+
+h1 {
+    color: color-primary-0;
+}

@@ -1,0 +1,37 @@
+body {
+    background-image: url("../pictures/light.jpg");
+    background-repeat: no-repeat;
+    background-size: 105%;
+    font-family: Georgia;
+}
+.text-center {
+    text-align: center;
+}
+.green-text {
+    color: green;
+}
+.white-text {
+    color: white;
+}
+.round {
+    border-radius:50%;
+}
+.element_center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.image_center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.black-box {
+    background-color: black;
+    border: 3px solid yellow;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
+
