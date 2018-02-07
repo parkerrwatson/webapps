@@ -1,8 +1,14 @@
 body {
-    background-image: url("../pictures/light.jpg");
-    background-repeat: no-repeat;
-    background-size: 105%;
+    background: linear-gradient(white, blue);
     font-family: Georgia;
+}
+img {
+    opacity: 1 !important;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.ontop {
+    position: relative;
 }
 .text-center {
     text-align: center;
@@ -16,22 +22,40 @@ body {
 .round {
     border-radius:50%;
 }
-.element_center {
+.element-center {
     margin: auto;
     width: 50%;
     padding: 10px;
 }
-.image_center {
+.image-center {
     display:block;
     margin-left: auto;
     margin-right: auto;
 }
 .black-box {
-    background-color: black;
+    background: rgba(0,0,0,0.7);
     border: 3px solid yellow;
     border-radius: 15px 15px 15px 15px;
     padding: 15px;
     margin: 15px;
 }
-
-
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-element {
+    flex-grow: 1;
+}
+.column {
+    width: 33%;
+}
+@media (min-width: 400px) and (max-width: 949px) {
+    .column {
+        width: 50%;
+    }
+}
+@media (max-width: 399px) {
+    .column {
+        width: 100%
+    }
+}
