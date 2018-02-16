@@ -10,9 +10,6 @@ img {
 .ontop {
     position: relative;
 }
-.text-center {
-    text-align: center;
-}
 .green-text {
     color: green;
 }
@@ -39,23 +36,36 @@ img {
     padding: 15px;
     margin: 15px;
 }
+.top-black-box {
+    background: rgba(0,0,0,0.7);
+    border: 3px solid yellow;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 80px;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .flex-element {
     flex-grow: 1;
 }
 .column {
-    width: 33%;
 }
-@media (min-width: 400px) and (max-width: 949px) {
-    .column {
-        width: 50%;
-    }
+.empty {
+    background: rgba(0,0,0,0);
+    border: 3px solid yellow;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px;
+    margin: 15px;
+
 }
-@media (max-width: 399px) {
-    .column {
-        width: 100%
-    }
+nav {
+    position: absolute;
+}
+h1 {
+    position: relative;
 }

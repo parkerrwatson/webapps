@@ -3,12 +3,34 @@
     <head>
         <meta charset="utf-8">
         <title>PRW Web Portfolio</title>
-        <link rel="colorsheet" href="./css/colors.css">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./bootstrap_css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body class="center text-center">
-        <h1 class="white-text black-box">Web Portfolio</h1>        
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExamplesDefault" aria-expanded="false" aria-label="Toggle navigation">NavButton
+                <span class="navbar-toggle-icon">(not current)</span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home
+                            <span class="sr-only">(current only)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bs1.html" target="_blank">Navbar Ex.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".bs2.html" target="_blank">Jumbotron Ex.</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="top-black-box white-text">
+            <h1>Web Portfolio</h1>
+        </div>
         <section class="white-text black-box">
             <h2>About Me</h2>
             <img class="round" src="./pictures/prof_pic.jpg" alt="Profile Picture" width="200" height="200">
@@ -18,16 +40,16 @@
             <h2>About the Course</h2>
             <article>"CSCI379: Full Stack Web Applications" gives an introduction<br>to developing modern web applications covering the full web stack<br>from implementing server-side logic and databases, application<br> frameworks, HTML5/CSS3/JS, and a little bit of UI/UX design.</article>
         </section>
-        <div class="flex-container">
-            <div class="white-text column flex-element black-box">
+        <div class="flex-container row-fluid">
+            <div class="white-text span4 flex-element black-box">
                 <h3>Project 1</h3>
                 <p>This is just filler text.</p>
             </div>
-            <div class="white-text column flex-element black-box">
+            <div class="white-text span4 flex-element black-box">
                 <h3>Project 2</h3>
                 <p>This is just filler text.</p>
             </div>
-            <div class="white-text column flex-element black-box">
+            <div class="white-text span4 flex-element black-box">
                 <h3>Project 3</h3>
                 <p>This is just filler text.</p>
             </div>
